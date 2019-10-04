@@ -1,0 +1,16 @@
+{
+  "name": "s3BulkUpload",
+  "version": "1.0.0",
+  "description": "This is a simple asyncronous program to upload a large number of files to an S3 bucket. I built this program to upload over 200k images to an S3 bucket to migrate a client's media directory to a proper cdn.",
+  "main": "index.js",
+  "scripts": {
+   "test":"NODE_ENV=dev node index.js",
+   "live":"node index.js"
+  },
+  "keywords": ["S3","Bulk","Upload","s3BulkUpload"],
+  "author": "@MichaelLargent",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.542.0"
+  }
+}

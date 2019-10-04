@@ -1,9 +1,6 @@
-#s3BulkUpload
+# s3BulkUpload
 
-> An asyncronous node program to upload a ton of media to an S3 bucket.
-> Tested with over 300k images.
-
-> Contact @MichaelLargent with any feedback.
+> An asyncronous node program to upload a ton of media to an S3 bucket. Built to upload over 500k images.
 
 ## Setup
 
@@ -17,3 +14,5 @@ npm run test
 # Actually upload files to S3
 npm run live
 ```
+
+> Contact @MichaelLargent with any feedback.
